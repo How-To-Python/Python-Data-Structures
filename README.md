@@ -1,16 +1,12 @@
-# 🐍 Complete Python Dictionary Guide
-**Python Dictionary learning resource that contains everything you need to master Python dictionaries, from basic concepts to advanced techniques.**
+# 🐍 Python Dictionary Guide
 
-## 🔑 Key Features of Dictionaries
 
-1. **Dictionaries are mutable** - You can change their contents after creation
-2. **Key-value pairs** - Store data as associated pairs
-3. **Unique keys** - Each key can appear only once
-4. **Fast lookups** - O(1) average time complexity for access
-5. **Dictionary comprehensions** - Elegant way to create dictionaries
-6. **Many built-in methods** - get(), keys(), values(), items(), etc.
+- [Creating Dictionaries](./Notebooks/Creating_Dictionaries.ipynb)
+    - Create empty dictionaries
+    - Create Dictionaries With Values
 
-### 📊 Python Data Structures Comparison
+
+<!-- ### 📊 Python Data Structures Comparison
 
 | Data Structure | Ordered | Mutable | Duplicates | Indexed | Use Case |
 |----------------|---------|---------|------------|---------|----------|
@@ -43,4 +39,4 @@
 - **NumPy arrays** - Numerical Computing
 - **Pandas** - Data Analysis
 
-**Happy Learning! 🐍✨**
+**Happy Learning! 🐍✨** -->
