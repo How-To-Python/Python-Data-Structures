@@ -4,6 +4,8 @@
 - [Creating Dictionaries](./Notebooks/Creating_Dictionaries.ipynb)
     - Create empty dictionaries
     - Create Dictionaries With Values
+- [Adding To Dictionaries](./Notebooks/Adding_To_Dictionaries.ipynb)
+    - bracket notation, `update()`, `**` operator
 
 
 <!-- ### 📊 Python Data Structures Comparison
