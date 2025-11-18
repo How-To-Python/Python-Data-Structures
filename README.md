@@ -6,7 +6,8 @@
     - Create Dictionaries With Values
 - [Adding To Dictionaries](./Notebooks/Adding_To_Dictionaries.ipynb)
     - bracket notation, `update()`, `**` operator, `setdefault()`
-
+- [Removing Dictionary Items](./Notebooks/Removing_Dictionary_Items.ipynb)
+    - `del()`, `pop()`, `popitem()`, `clear()`, conditional and safe removal techniques
 
 <!-- ### 📊 Python Data Structures Comparison
 
