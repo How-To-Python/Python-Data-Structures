@@ -8,6 +8,8 @@
     - bracket notation, `update()`, `**` operator, `setdefault()`
 - [Removing Dictionary Items](./Notebooks/Removing_Dictionary_Items.ipynb)
     - `del()`, `pop()`, `popitem()`, `clear()`, conditional and safe removal techniques
+- [Accessing Dictionary Items](./Notebooks/Accessing_Dictionary_Items.ipynb)
+    - bracket notation, check if key and/or value exists `.get()`, `.keys()`, `.values()`, `.items()`
 
 <!-- ### 📊 Python Data Structures Comparison
 
