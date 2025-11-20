@@ -1,37 +1,55 @@
 # 🐍 Python Dictionary Guide
 
 
-- [Creating Dictionaries](./Notebooks/Creating_Dictionaries.ipynb)
+1. [Creating Dictionaries](./Notebooks/Creating_Dictionaries.ipynb)
     - Create empty dictionaries
     - Create Dictionaries With Values
-- [Adding To Dictionaries](./Notebooks/Adding_To_Dictionaries.ipynb)
-    - bracket notation, `update()`, `**` operator, `setdefault()`
-- [Removing Dictionary Items](./Notebooks/Removing_Dictionary_Items.ipynb)
-    - `del()`, `pop()`, `popitem()`, `clear()`, conditional and safe removal techniques
-- [Accessing Dictionary Items](./Notebooks/Accessing_Dictionary_Items.ipynb)
-    - bracket notation, check if key and/or value exists `.get()`, `.keys()`, `.values()`, `.items()`
-- [Accessing Dictionary Items Using Dot Notation](./Notebooks/Access_Dictionary_DotNotation.ipynb)
-    - ways to achieve dot notation access for dictionary-like objects
-- [Methods and Operations](./Notebooks/Dictionary_Methods_Operations.ipynb)
-- [Items Method](./Notebooks/Items_Method.ipynb)
-    - used to get key-value pairs from a dictionary as tuples in a view object
-- [Keys Method](./Notebooks/Keys_Method.ipynb)
-    - used to get the keys of the dictionary
-- [Values Method](./Notebooks/Values_Method.ipynb)
-    - used to get all the values from a dictionary
-- [Dictionary Comprehensions](./Notebooks/Dictionary_Comprehensions.ipynb)
-- [Iteration Techniques](./Notebooks/Dictionary_Iteration_Techniques.ipynb)
-- [Copying Methods](./Notebooks/Dictionary_Copying_Methods.ipynb)
-- [Merging and Updating](./Notebooks/Dictionary_Merging_Updating.ipynb)
+2. [Adding To Dictionaries](./Notebooks/Adding_To_Dictionaries.ipynb)
+    - bracket notation
     - `update()`
     - `**` operator
-- [Set Like Operations on Views](./Notebooks/Dictionary_SetLike_Operations.ipynb)
-- [Dictionary Comparison](./Notebooks/Dictionary_Comparison.ipynb)
-- [Dictionary Performance](./Notebooks/Dictionary_Performance.ipynb)
-- [Dictionary Practice](./Notebooks/Dictionary_Practice_Exercises.ipynb)
-- []
-- []
-- []
+    - `setdefault()`
+3. [Removing Dictionary Items](./Notebooks/Removing_Dictionary_Items.ipynb)
+    - `del()`
+    - `pop()`
+    - `popitem()`
+    - `clear()`
+    - conditional and safe removal techniques
+4. [Accessing Dictionary Items](./Notebooks/Accessing_Dictionary_Items.ipynb)
+    - bracket notation, check if key and/or value exists 
+    - `.get()`
+    - `.keys()`
+    - `.values()`
+    - `.items()`
+    -  `dir()` function
+5. [Items Method](./Notebooks/Items_Method.ipynb)
+    - used to get key-value pairs from a dictionary as tuples in a view object
+6. [Keys Method](./Notebooks/Keys_Method.ipynb)
+    - used to get the keys of the dictionary
+7. [Values Method](./Notebooks/Values_Method.ipynb)
+    - used to get all the values from a dictionary
+8. [Iteration Techniques](./Notebooks/Dictionary_Iteration_Techniques.ipynb)
+9. [Copying Methods](./Notebooks/Dictionary_Copying_Methods.ipynb)
+    - `copy()` method
+    - `dict()` constructor
+10. [Merging and Updating](./Notebooks/Dictionary_Merging_Updating.ipynb)
+    - `update()`
+    - `**` operator
+11. [Dictionary Comprehensions](./Notebooks/Dictionary_Comprehensions.ipynb)
+12. [Set Like Operations on Views](./Notebooks/Dictionary_SetLike_Operations.ipynb)
+    - set operations on keys
+    - set operations on items (key-value pairs)
+13. [Dictionary Comparison](./Notebooks/Dictionary_Comparison.ipynb)
+    - equality comparison
+    - comparing nested dictionaries
+14. [Accessing Dictionary Items Using Dot Notation](./Notebooks/Access_Dictionary_DotNotation.ipynb)
+    - ways to achieve dot notation access for dictionary-like objects
+15. [Advance Operations](./Notebooks/Dictionary_Operations_Advanced.ipynb)
+    - `fromkeys()` class method
+    - mutable defaults
+    - filtering and transformation
+16. [Dictionary Performance](./Notebooks/Dictionary_Performance.ipynb)
+17. [Dictionary Practice](./Notebooks/Dictionary_Practice_Exercises.ipynb)
 
 
 ## Summary
@@ -68,6 +86,48 @@
 - Use `**` operator for modern dictionary merging
 - Use view objects for set-like operations
 - Be careful with mutable default values in `fromkeys()`
+
+
+
+### Dictionary Iteration Methods:
+
+**Basic Iteration:**
+- `for key in dict:` - Iterate over keys (default)
+- `for key in dict.keys():` - Explicit key iteration
+- `for value in dict.values():` - Iterate over values
+- `for key, value in dict.items():` - Iterate over key-value pairs
+
+**Enhanced Iteration:**
+- `enumerate(dict.items())` - Add index numbers
+- `sorted(dict.items())` - Iterate in sorted order
+- `sorted(dict.items(), key=lambda x: x[1])` - Sort by values
+
+### Best Practices:
+
+1. **Use `.items()` when you need both keys and values**
+2. **Use `.values()` when you only need values (most efficient)**
+3. **Use `.keys()` for set operations or when checking multiple keys**
+4. **Use `sorted()` for ordered iteration**
+5. **Use `enumerate()` when you need position information**
+6. **Consider chunking for very large dictionaries**
+
+### Performance Tips:
+
+- `.values()` iteration is fastest when you only need values
+- `.items()` is more efficient than separate key/value lookups
+- Use list comprehensions/generator expressions for simple transformations
+- Consider `itertools` for advanced iteration patterns
+
+### Common Patterns:
+
+- **Filtering**: `for k, v in dict.items() if condition`
+- **Transformation**: `{k: transform(v) for k, v in dict.items()}`
+- **Aggregation**: `sum(dict.values())`, `max(dict, key=dict.get)`
+- **Grouping**: Use `defaultdict(list)` or manual grouping
+- **Nested iteration**: Multiple nested loops for complex structures
+
+
+
 
 <!-- ### 📊 Python Data Structures Comparison
 
