@@ -10,6 +10,25 @@
     - `del()`, `pop()`, `popitem()`, `clear()`, conditional and safe removal techniques
 - [Accessing Dictionary Items](./Notebooks/Accessing_Dictionary_Items.ipynb)
     - bracket notation, check if key and/or value exists `.get()`, `.keys()`, `.values()`, `.items()`
+- [Accessing Dictionary Items Using Dot Notation](./Notebooks/Access_Dictionary_DotNotation.ipynb)
+    - ways to achieve dot notation access for dictionary-like objects
+- [Items Method](./Notebooks/Items_Method.ipynb)
+    - used to get key-value pairs from a dictionary as tuples in a view object
+- [Keys Method](./Notebooks/Keys_Method.ipynb)
+    - used to get the keys of the dictionary
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
 
 <!-- ### 📊 Python Data Structures Comparison
 
