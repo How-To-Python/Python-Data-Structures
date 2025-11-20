@@ -22,10 +22,11 @@
 - [Dictionary Comprehensions](./Notebooks/Dictionary_Comprehensions.ipynb)
 - [Iteration Techniques](./Notebooks/Dictionary_Iteration_Techniques.ipynb)
 - [Iteration Practice](./Notebooks/Dictionary_Iteration_Practice.ipynb)
-
 - [Copying Methods](./Notebooks/Dictionary_Copying_Methods.ipynb)
-- []
-- []
+- [Merging and Updating](./Notebooks/Dictionary_Merging_Updating.ipynb)
+    - `update()`
+    - `**` operator
+- [Set Like Operations on Views](./Notebooks/Dictionary_SetLike_Operations.ipynb)
 
 - []
 - []
