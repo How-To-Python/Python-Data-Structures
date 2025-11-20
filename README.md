@@ -12,17 +12,21 @@
     - bracket notation, check if key and/or value exists `.get()`, `.keys()`, `.values()`, `.items()`
 - [Accessing Dictionary Items Using Dot Notation](./Notebooks/Access_Dictionary_DotNotation.ipynb)
     - ways to achieve dot notation access for dictionary-like objects
+- [Methods and Operations](./Notebooks/Dictionary_Methods_Operations.ipynb)
 - [Items Method](./Notebooks/Items_Method.ipynb)
     - used to get key-value pairs from a dictionary as tuples in a view object
 - [Keys Method](./Notebooks/Keys_Method.ipynb)
     - used to get the keys of the dictionary
+- [Values Method](./Notebooks/Values_Method.ipynb)
+    - used to get all the values from a dictionary
+- [Dictionary Comprehensions](./Notebooks/Dictionary_Comprehensions.ipynb)
+- [Iteration Techniques](./Notebooks/Dictionary_Iteration_Techniques.ipynb)
+- [Iteration Practice](./Notebooks/Dictionary_Iteration_Practice.ipynb)
+
+- [Copying Methods](./Notebooks/Dictionary_Copying_Methods.ipynb)
 - []
 - []
-- []
-- []
-- []
-- []
-- []
+
 - []
 - []
 - []
