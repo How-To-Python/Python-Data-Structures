@@ -21,19 +21,53 @@
     - used to get all the values from a dictionary
 - [Dictionary Comprehensions](./Notebooks/Dictionary_Comprehensions.ipynb)
 - [Iteration Techniques](./Notebooks/Dictionary_Iteration_Techniques.ipynb)
-- [Iteration Practice](./Notebooks/Dictionary_Iteration_Practice.ipynb)
 - [Copying Methods](./Notebooks/Dictionary_Copying_Methods.ipynb)
 - [Merging and Updating](./Notebooks/Dictionary_Merging_Updating.ipynb)
     - `update()`
     - `**` operator
 - [Set Like Operations on Views](./Notebooks/Dictionary_SetLike_Operations.ipynb)
+- [Dictionary Comparison](./Notebooks/Dictionary_Comparison.ipynb)
+- [Dictionary Performance](./Notebooks/Dictionary_Performance.ipynb)
+- [Dictionary Practice](./Notebooks/Dictionary_Practice_Exercises.ipynb)
+- []
+- []
+- []
 
-- []
-- []
-- []
-- []
-- []
-- []
+
+## Summary
+
+### Essential Dictionary Methods:
+
+**Access Methods:**
+- `dict.get(key, default=None)` - Safe access with optional default
+- `dict.setdefault(key, default=None)` - Get or set default value
+- `dict.keys()`, `dict.values()`, `dict.items()` - View objects
+
+**Modification Methods:**
+- `dict.update(other)` - Merge another dictionary or iterable
+- `dict.pop(key, default)` - Remove and return value
+- `dict.popitem()` - Remove and return last item
+- `dict.clear()` - Remove all items
+
+**Utility Methods:**
+- `dict.copy()` - Create shallow copy
+- `dict.fromkeys(keys, value)` - Create dictionary from keys
+
+### Key Concepts:
+
+1. **View Objects** are dynamic and reflect dictionary changes
+2. **Shallow Copy** copies references to nested objects
+3. **Set Operations** work on dictionary views (keys, items)
+4. **Dictionary Equality** compares all key-value pairs regardless of order
+5. **Performance** - `in` operator is typically fastest for existence checks
+
+### Best Practices:
+
+- Use `get()` for safe access instead of direct indexing
+- Use `setdefault()` for initialization patterns
+- Use `**` operator for modern dictionary merging
+- Use view objects for set-like operations
+- Be careful with mutable default values in `fromkeys()`
 
 <!-- ### 📊 Python Data Structures Comparison
 
